@@ -1,48 +1,35 @@
-
-// CPP program to generate power set
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-/*This is a function problem.You only need to complete the function given below*/
-//User function Template for C++
-//Complete this function
-void powerSet(string str, vector<string> &v,int index = 0, string curr = "")
-{
-int n = str.length();
-if (index == n) {
-v.push_back(curr);
-return;
-}
-powerSet(str, v, index + 1, curr + str[index]);
-powerSet(str, v, index + 1, curr);
-}
+void subset(string s, vector<string> &v, string curr = " ", int index = 0){
 
-vector <string> powerSet(string s)
-{
-vector<string> v;
-powerSet(s,v);
-return v;
-}
-
-
-
-// Driver code
-int main()
-{
-    int T;
-    cin>>T;
-    while(T--)
-    {
-        string s;
-        cin>>s;
-        vector<string> ans = powerSet(s);
-        sort(ans.begin(),ans.end());
-        for(auto x:ans)
-        cout<<x<<" ";
-        cout<<endl;
-        
-        
+    if (index == s.length()){
+        v.push_back(curr);
+        return;
     }
+        
+    subset(s, v, curr, index+1);
+    subset(s, v, curr+s[index], index+1);
+}
 
-return 0;
-} 
+vector<string> powerSet(string str){
+    vector<string> v;
+    subset(str, v);
+
+    return v;
+}
+
+int main(){
+    
+    string s = "abcd";
+    reverse(s.begin(), s.end());        // Reversing the string to get the subsets in lexicographical order
+                                        // Else you'll need to sort the answer vector which takes O((2^n)log (2^n)) time
+    
+    vector<string> sub = powerSet(s);
+    
+    for (auto i : sub)
+        cout<<i<<" ";
+    cout<<endl;
+
+    return 0;
+}
