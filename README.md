@@ -14,7 +14,7 @@ Topics taught in this course are the following:-
 9) Hashing
 10) Strings
 11) Linked List
-12) Stack
+12) [Stack](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/tree/master/12%20Stacks)
 13) Queue
 14) Tree
 15) Binary Search Tree
