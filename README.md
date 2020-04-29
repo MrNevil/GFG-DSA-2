@@ -12,7 +12,7 @@ Topics taught in this course are the following:-
 7) Sorting
 8) Matrix
 9) Hashing
-10) Strings
+10) [Strings](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/tree/master/10%20Strings)
 11) [Linked List](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/tree/master/11%20Linked%20List)
 12) [Stack](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/tree/master/12%20Stacks)
 13) Queue
