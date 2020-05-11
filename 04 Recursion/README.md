@@ -5,7 +5,7 @@ This folder contains all the assignment programs of Recursion
 2) [Sum of digits of a number](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/04%20Recursion/2%20sum%20of%20digits.py)
 3) [Count Total number of Digits in a Number](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/04%20Recursion/3%20count%20digits.cpp)
 4) [Digital Root](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/04%20Recursion/4%20digital%20root.cpp)
-5) [Fibonacci Using Recursion](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/4%20Recursion/5%20Fibonacci%20using%20recursion.py)
+5) [Fibonacci Using Recursion](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/04%20Recursion/5%20Fibonacci%20using%20recursion.py)
 6) [Tower of Hanoi](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/4%20Recursion/6%20tower%20of%20hanoi.cpp)
 7) [Josephus Problem](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/4%20Recursion/7%20josephus%20problem.py)
 8) [Power Using Recursion](https://github.com/FazeelUsmani/GeeksForGeeks-DSA-2/blob/master/4%20Recursion/8%20Power%20using%20Recursion.py)
