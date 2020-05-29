@@ -5,7 +5,8 @@ Greedy is an __algorithmic paradigm__ that builds up a solution piece by piece, 
 ###  __"At every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem."__
 <br/>
 If a Greedy Algorithm can solve a problem, then it generally becomes the best method to solve that problem as the Greedy algorithms are in general more efficient than other techniques like Dynamic Programming. 
-But Greedy algorithms cannot always be applied. For example, Fractional Knapsack problem (See [this](http://www.cs.binghamton.edu/~dima/cs333/knapsack.ppt)) can be solved using Greedy,
+But Greedy algorithms cannot always be applied. For example, Fractional Knapsack problem 
+(See [this](http://www.cs.binghamton.edu/~dima/cs333/knapsack.ppt) ) can be solved using Greedy,
 but 0-1 Knapsack cannot be solved using Greedy.
 <br/><br/>
 Following are some standard algorithms that are Greedy algorithms.
