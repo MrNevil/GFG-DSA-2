@@ -6,7 +6,7 @@ __At every step, we can make a choice that looks best at the moment, and we get 
 <br/>
 If a Greedy Algorithm can solve a problem, then it generally becomes the best method to solve that problem as the Greedy algorithms are in general more efficient than other techniques like Dynamic Programming. 
 But Greedy algorithms cannot always be applied. For example, Fractional Knapsack problem (See [this](http://www.cs.binghamton.edu/~dima/cs333/knapsack.ppt)) can be solved using Greedy,
-but 0-1 Knapsack cannot be solved using Greedy.
+but [0-1 Knapsack](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) cannot be solved using Greedy.
 <br/><br/>
 Following are some standard algorithms that are Greedy algorithms.
 1) __[Kruskal's Minimum Spanning Tree (MST)](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/):__ In Kruskal's algorithm, we create a MST by picking edges one by one. The Greedy Choice is to pick the smallest weight edge that doesn't cause a cycle in the MST constructed so far.<br/>
