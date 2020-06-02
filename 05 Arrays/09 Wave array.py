@@ -1,4 +1,9 @@
-# Given a sorted array arr[] of distinct integers. Sort the array into a wave-like array and return it. In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5..... (considering the increasing lexicographical order).
+/*
+Given a sorted array arr[] of distinct integers. Sort the array into a wave-like array and return it. 
+In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5..... 
+(considering the increasing lexicographical order)
+
+*/
 
 # Input Format:
 # The first line contains an integer T, depicting total number of test cases. T testcases follow. The first line of each testcase contains an integer N depicting the size of the array. The second line contains N space separated elements of the array.
